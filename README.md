@@ -1,7 +1,7 @@
 # learn-kotlin-basic
 Project ini dibuat khusus untuk belajar Kotlin basic.
 
-##Requirements
+## Requirements
 ### Hardware
 - CPU : Intel© Core™ i3-6006U CPU @ 2.0GHz
 - Memory : 2 x 4 GB RAM
