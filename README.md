@@ -1,4 +1,4 @@
-# learn-kotlin
+# learn-kotlin-basic
 Project ini dibuat khusus untuk belajar Kotlin basic.
 
 ##Requirements
