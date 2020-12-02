@@ -1,5 +1,7 @@
 package datatype.stringtype
 
+import java.util.*
+
 fun main() {
 
     //String
@@ -62,4 +64,8 @@ fun main() {
     //Strings with complex String Template
     var charOfFullName = "Total char pada $fullName adalah ${fullName.length} char"
     println(charOfFullName)
+
+    //In Java for Strings Template
+    var myName = firstName
+    println(String.format(Locale.getDefault(), "%s", myName.length))
 }
