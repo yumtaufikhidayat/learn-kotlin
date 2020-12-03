@@ -1,4 +1,4 @@
-package datatype.rangetype
+package datatype.range
 
 fun main() {
 

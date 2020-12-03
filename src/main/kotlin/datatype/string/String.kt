@@ -1,4 +1,4 @@
-package datatype.stringtype
+package datatype.string
 
 import java.util.*
 

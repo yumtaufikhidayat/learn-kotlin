@@ -1,4 +1,4 @@
-package datatype.charactertype
+package datatype.character
 
 fun main() {
 

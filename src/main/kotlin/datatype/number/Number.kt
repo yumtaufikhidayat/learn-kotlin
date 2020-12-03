@@ -1,4 +1,4 @@
-package datatype.numbertype
+package datatype.number
 
 fun main() {
 

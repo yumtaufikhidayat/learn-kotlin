@@ -1,4 +1,4 @@
-package datatype.variabletype
+package datatype.variable
 
 //Constant Variable
 //Global: can be accessed in any places

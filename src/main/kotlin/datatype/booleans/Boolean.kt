@@ -1,4 +1,4 @@
-package datatype.booleantype
+package datatype.booleans
 
 fun main() {
 

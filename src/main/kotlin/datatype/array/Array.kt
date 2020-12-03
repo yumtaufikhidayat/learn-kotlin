@@ -1,4 +1,4 @@
-package datatype.arraytype
+package datatype.array
 
 fun main() {
 
