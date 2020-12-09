@@ -33,4 +33,11 @@ fun main() {
     for (value in 1000 downTo 0 step 5) {
         println("ValueDecStep: $value")
     }
+
+    //Get array size using for loop
+    val arraySize = arrayOfName.size - 1
+
+    for (i in 0..arraySize) {
+        println("Index ke-$i = ${arrayOfName[i]}")
+    }
 }
