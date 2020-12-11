@@ -8,9 +8,9 @@ fun main() {
 
 fun sum(firstNumb: Int, secondNumb: Int): Int {
 
-    val total = firstNumb + secondNumb
-    println("Nilai total adalah: $total")
-    return total
+    val sumResult = firstNumb + secondNumb
+    println("Nilai penjumlahan adalah: $sumResult")
+    return sumResult
 }
 
 fun divided(firstNumb: Double, secondNumb: Double): Double {
@@ -18,8 +18,8 @@ fun divided(firstNumb: Double, secondNumb: Double): Double {
     return if (secondNumb == 0.0) {
         0.0
     } else {
-        val result = firstNumb / secondNumb
-        println("Hasilnya adalah: $result")
-        result
+        val dividedResult = firstNumb / secondNumb
+        println("Nilai pembagian adalah: $dividedResult")
+        dividedResult
     }
 }
