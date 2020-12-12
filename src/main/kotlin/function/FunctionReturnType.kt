@@ -15,11 +15,11 @@ fun sum(firstNumb: Int, secondNumb: Int): Int {
 
 fun divided(firstNumb: Double, secondNumb: Double): Double {
 
-    return if (secondNumb == 0.0) {
-        0.0
+    if (secondNumb == 0.0) {
+        return 0.0
     } else {
         val dividedResult = firstNumb / secondNumb
         println("Nilai pembagian adalah: $dividedResult")
-        dividedResult
+        return dividedResult
     }
 }

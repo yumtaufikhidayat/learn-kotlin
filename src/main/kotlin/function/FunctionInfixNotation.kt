@@ -14,9 +14,9 @@ fun main() {
 //This infix function must be using one parameter, neither empty or more than one
 //If we want to access this function, it is not required to use . (dot) mark
 infix fun String.to(type: String): String {
-    return if (type == "UP") {
-        this.toUpperCase()
+    if (type == "UP") {
+        return this.toUpperCase()
     } else {
-        this.toLowerCase()
+        return this.toLowerCase()
     }
 }
