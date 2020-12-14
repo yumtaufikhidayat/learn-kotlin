@@ -1,0 +1,37 @@
+package com.yumtaufik.learnkotlinbasic.function
+
+fun main() {
+
+    for (i in 1..100) {
+        println(hello({ "Taufik" }, { "Hidayat" }))
+    }
+
+    for (j in 1..100) {
+        println(helloNoInline({"Eko"}, {"Kurniawan"}))
+    }
+}
+
+/*
+Inline com.yumtaufik.learnkotlinbasic.function is one of ability of Kotlin to change higher order com.yumtaufik.learnkotlinbasic.function into common com.yumtaufik.learnkotlinbasic.function
+ */
+inline fun hello(
+    firstName: () -> String,
+    lastName: () -> String
+): String {
+    return "Hello, ${firstName()} ${lastName()}"
+}
+
+/*
+If we want to make some parameters not as inline,
+We can add 'noinline' at the first before parameter name
+Ex: We will change lastName parameter as noinline,
+Kotlin bytecode will change it into common com.yumtaufik.learnkotlinbasic.function
+And no inline parameter will be called repeatedly
+Consequently, the app perform will be slow
+*/
+inline fun helloNoInline(
+    firstName: () -> String,
+    noinline lastName: () -> String
+): String {
+    return "Hello, ${firstName()} ${lastName()}"
+}
