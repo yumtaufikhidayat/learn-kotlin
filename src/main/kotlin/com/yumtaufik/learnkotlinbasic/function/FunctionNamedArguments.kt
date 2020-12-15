@@ -2,7 +2,7 @@ package com.yumtaufik.learnkotlinbasic.function
 
 fun main() {
 
-    //Call com.yumtaufik.learnkotlinbasic.function with random parameter
+    //Call function with random parameter
     fullName(
         firstName = "Eko",
         lastName = "Khannedy",

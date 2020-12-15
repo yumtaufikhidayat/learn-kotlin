@@ -1,4 +1,4 @@
-package cexpression.lambdas
+package com.yumtaufik.learnkotlinbasic.expression.lambdas
 
 fun main() {
 

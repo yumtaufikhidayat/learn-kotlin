@@ -1,9 +1,9 @@
 package com.yumtaufik.learnkotlinbasic.label
 
 /*
-Adding com.yumtaufik.learnkotlinbasic.label by type inputName and add @ mark
+Adding label by type inputName and add @ mark
 Label also can integrate with break, continue, and return
-It is called break to com.yumtaufik.learnkotlinbasic.label, continue to com.yumtaufik.learnkotlinbasic.label, and return to com.yumtaufik.learnkotlinbasic.label
+It is called break to label, continue to label, and return to label
 */
 fun main() {
 
@@ -20,7 +20,7 @@ fun main() {
     }
 }
 
-//We can add com.yumtaufik.learnkotlinbasic.label by adding inputNameOfLabel@
+//We can add label by adding inputNameOfLabel@
 fun label() {
     println("Label")
     loopI@ for (i in 1..10) {

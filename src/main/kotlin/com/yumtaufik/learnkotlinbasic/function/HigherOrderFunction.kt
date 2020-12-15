@@ -2,8 +2,8 @@ package com.yumtaufik.learnkotlinbasic.function
 
 fun main() {
 
-    //Make some variables and convert to lambda com.yumtaufik.learnkotlinbasic.expression
-    //The variable that converted as lambda com.yumtaufik.learnkotlinbasic.expression will be using as parameter
+    //Make some variables and convert to lambda expression
+    //The variable that converted as lambda expression will be using as parameter
     val toUpperCase = {value:String -> value.toUpperCase()}
     val toLowerCase = {value:String -> value.toLowerCase()}
 
@@ -12,7 +12,7 @@ fun main() {
 
     //Trailing lambda
     //It makes easy to read
-    //But it must be placed at the end where lambda com.yumtaufik.learnkotlinbasic.expression placed
+    //But it must be placed at the end where lambda expression placed
     val result1 = hello("Taufik") {
             value:String -> value.toUpperCase()
     }
@@ -25,8 +25,8 @@ fun main() {
     println(result2)
 }
 
-//This method will convert lambda com.yumtaufik.learnkotlinbasic.expression as parameter
-//Lambda com.yumtaufik.learnkotlinbasic.expression not only as com.yumtaufik.learnkotlinbasic.function, but also as parameter
+//This method will convert lambda expression as parameter
+//Lambda expression not only as function, but also as parameter
 fun hello(name: String, transformer: (String) -> String): String {
     return "Hello, ${transformer(name)}"
 }

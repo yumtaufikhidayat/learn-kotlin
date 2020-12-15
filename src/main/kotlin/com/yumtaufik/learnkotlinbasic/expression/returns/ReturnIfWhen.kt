@@ -2,7 +2,7 @@ package com.yumtaufik.learnkotlinbasic.expression.returns
 
 fun main() {
 
-    //This com.yumtaufik.learnkotlinbasic.function using return if
+    //This function using return if
     fun sayHelloIf(name: String = ""): String {
         return if (name == "") {
             "Hello bro!"
@@ -14,7 +14,7 @@ fun main() {
     println(sayHelloIf())
     println(sayHelloIf("Taufik"))
 
-    //This com.yumtaufik.learnkotlinbasic.function using return when
+    //This function using return when
     fun sayHelloWhen(name: String = ""): String {
         return when (name) {
             ""-> "Hello bro!"

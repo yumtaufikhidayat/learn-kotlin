@@ -18,14 +18,14 @@ fun main() {
         else -> println("Not passed!")
     }
 
-    //When using In com.yumtaufik.learnkotlinbasic.expression
+    //When using In expression
     val passValue = arrayOf('A', 'B', 'C')
     when (finalExam) {
         in passValue -> println("Amazing!")
         !in passValue -> println("Try again next year!")
     }
 
-    //When using Is com.yumtaufik.learnkotlinbasic.expression
+    //When using Is expression
     when (finalExam) {
         is Char -> println("Final exam is Char!")
         !is Char -> println("Final exam not Char!")

@@ -1,8 +1,8 @@
-package com.yumtaufik.learnkotlinbasic.closure
+package closure
 
-//The com.yumtaufik.learnkotlinbasic.function(s)/variable(s) inside main com.yumtaufik.learnkotlinbasic.function has access to data (any functions or variable(s))
+//The function(s)/variable(s) inside main function has access to data (any functions or variable(s))
 //within the scope. This called as Closure
-//But please be wise to use com.yumtaufik.learnkotlinbasic.closure, because data can changed
+//But please be wise to use closure, because data can changed
 fun main() {
     var counter = 0
     val lambdaIncrement: () -> Unit = {
@@ -11,7 +11,7 @@ fun main() {
     }
 
     val anonymousIncrement = fun (){
-        println("Anonymous com.yumtaufik.learnkotlinbasic.function increment")
+        println("Anonymous function increment")
         counter++
     }
 

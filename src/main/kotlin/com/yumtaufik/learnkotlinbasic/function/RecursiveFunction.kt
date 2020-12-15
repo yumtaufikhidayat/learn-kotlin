@@ -14,7 +14,7 @@ fun main() {
 
     println("Hasil factorial dengan loop: " + factorialLoop(10))
 
-    //Method to calculate n factorial using recursive com.yumtaufik.learnkotlinbasic.function
+    //Method to calculate n factorial using recursive function
     fun factorialRecursive(value: Int): Int {
         return when (value) {
             1 -> 1
@@ -22,5 +22,5 @@ fun main() {
         }
     }
 
-    println("Hasil factorial dengan recursive com.yumtaufik.learnkotlinbasic.function: " + factorialRecursive(10))
+    println("Hasil factorial dengan recursive function: " + factorialRecursive(10))
 }

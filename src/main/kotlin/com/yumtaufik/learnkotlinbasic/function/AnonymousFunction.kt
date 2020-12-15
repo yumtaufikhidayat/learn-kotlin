@@ -17,7 +17,7 @@ fun main() {
     println(hello("Taufik Hidayat", upper))
     println(hello("", upper))
 
-    //We can input anonymous com.yumtaufik.learnkotlinbasic.function as parameter
+    //We can input anonymous function as parameter
     println(hello("Hidayat", fun(value: String): String {
         return value.toLowerCase()
     }))

@@ -12,7 +12,7 @@ fun main() {
 }
 
 /*
-Inline com.yumtaufik.learnkotlinbasic.function is one of ability of Kotlin to change higher order com.yumtaufik.learnkotlinbasic.function into common com.yumtaufik.learnkotlinbasic.function
+Inline function is one of ability of Kotlin to change higher order function into common function
  */
 inline fun hello(
     firstName: () -> String,
@@ -25,7 +25,7 @@ inline fun hello(
 If we want to make some parameters not as inline,
 We can add 'noinline' at the first before parameter name
 Ex: We will change lastName parameter as noinline,
-Kotlin bytecode will change it into common com.yumtaufik.learnkotlinbasic.function
+Kotlin bytecode will change it into common function
 And no inline parameter will be called repeatedly
 Consequently, the app perform will be slow
 */

@@ -19,5 +19,5 @@ fun main() {
         }
     }
 
-    println("Hasil factorial dengan recursive com.yumtaufik.learnkotlinbasic.function: " + factorialTailRecursive(10))
+    println("Hasil factorial dengan recursive function: " + factorialTailRecursive(10))
 }
