@@ -28,8 +28,9 @@ fun main() {
     println("hexadecimalLiteral: $hexadecimalLiteral")
     println("binaryLiteral: $binaryLiteral")
 
-    //Underscore
-    //It's used to easy to read number in thousand, million, billion, trillion, and etc
+    /**Underscore
+     * It's used to easy to read number in thousand, million, billion, trillion, and etc
+    */
     var ages = 3_0
     var heights = 1_8_0
     var balance = 1_2_3L

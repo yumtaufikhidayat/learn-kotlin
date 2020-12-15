@@ -1,8 +1,9 @@
-package closure
+package com.yumtaufik.learnkotlinbasic.closure
 
-//The function(s)/variable(s) inside main function has access to data (any functions or variable(s))
-//within the scope. This called as Closure
-//But please be wise to use closure, because data can changed
+/**The function(s)/variable(s) inside main function has access to data (any functions or variable(s))
+ * within the scope. This called as Closure
+ * But please be wise to use closure, because data can changed
+*/
 fun main() {
     var counter = 0
     val lambdaIncrement: () -> Unit = {

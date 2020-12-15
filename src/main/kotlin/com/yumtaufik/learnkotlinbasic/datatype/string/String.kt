@@ -4,7 +4,6 @@ import java.util.*
 
 fun main() {
 
-    //String
     //String with quotation mark
     var firstName: String = "Taufik"
     var lastName: String = "Hidayat"
@@ -25,8 +24,10 @@ fun main() {
     //For triple quotation mark
     print("Your address: $address1")
 
-    //String with triple quotation mark using trim margin
-    // "|" this called is pipe mark (READ: pipe mark)
+    /**
+     * String with triple quotation mark using trim margin
+     * "|" this called is pipe mark (READ: pipe mark)
+    */
     var address2: String = """
         |Jakarta Pusat,
         |DKI Jakarta,
@@ -36,8 +37,10 @@ fun main() {
     //Print using pipe mark
     println(address2)
 
-    //String with triple quotation mark using trim margin
-    // ">" this called is more than mark
+    /**
+     * String with triple quotation mark using trim margin
+     * ">" this called is more than mark
+     */
     var address3: String = """
         >Jakarta Pusat,
         >DKI Jakarta,

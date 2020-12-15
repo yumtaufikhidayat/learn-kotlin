@@ -2,7 +2,6 @@ package com.yumtaufik.learnkotlinbasic.operation.mathematics
 
 fun main() {
 
-    //Math
     //Using int type
     val resultInt = 10 / 2
     println(resultInt)

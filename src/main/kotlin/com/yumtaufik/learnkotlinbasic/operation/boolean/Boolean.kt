@@ -2,8 +2,10 @@ package com.yumtaufik.learnkotlinbasic.operation.boolean
 
 fun main() {
 
-    //Boolean
-    // && <- AND, || <- OR, ! <- NOT
+    /**
+     * Boolean
+     * && <- AND, || <- OR, ! <- NOT
+     */
     val finalExam = 80
     val attendant = 75
 

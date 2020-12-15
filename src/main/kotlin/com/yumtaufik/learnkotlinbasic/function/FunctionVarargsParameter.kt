@@ -28,10 +28,12 @@ fun hitungTotal(values: Array<Int>): Int {
     return total
 }
 
-//Function with vararg as parameter
-//Vararg must be placed in last parameter, neither in first parameter nor in middle parameter
-//If using vararg, it would be converted to array automatically
-//We can also use an empty input for vararg parameter
+/**
+ * Function with vararg as parameter
+ * Vararg must be placed in last parameter, neither in first parameter nor in middle parameter
+ * If using vararg, it would be converted to array automatically
+ * We can also use an empty input for vararg parameter
+*/
 fun hitungTotalVarargs(name: String, vararg values: Int): Int {
 
     var total = 0

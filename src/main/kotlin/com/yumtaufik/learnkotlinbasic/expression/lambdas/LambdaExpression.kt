@@ -1,13 +1,16 @@
 package com.yumtaufik.learnkotlinbasic.expression.lambdas
 
+/**
+ * With lambda, we are not required to type return as return type
+ * The lambda's body is automatically convert as return
+ */
 fun main() {
 
-    //With lambda, we are not required to type return as return type
-    //The lambda's body is automatically convert as return
-
-    //Variable with lambda expression using two parameters
-    //(String, String) -> They are two as input but also parameters with String data type.
-    //String -> It is return as String type
+    /**
+     * Variable with lambda expression using two parameters
+     * (String, String) -> They are two as input but also parameters with String data type.
+     * String -> It is return as String type
+    */
     val contohLambda: (String, String) -> String = { firstName: String, lastName: String ->
         val result = "Hello $firstName $lastName" //This body is converted automatically as return
         result

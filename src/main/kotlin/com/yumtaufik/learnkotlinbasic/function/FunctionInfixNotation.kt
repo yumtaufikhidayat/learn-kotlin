@@ -11,8 +11,10 @@ fun main() {
     println(result2)
 }
 
-//This infix function must be using one parameter, neither empty or more than one
-//If we want to access this function, it is not required to use . (dot) mark
+/**
+ * This infix function must be using one parameter, neither empty or more than one
+ * If we want to access this function, it is not required to use . (dot) mark
+ */
 infix fun String.to(type: String): String {
     if (type == "UP") {
         return this.toUpperCase()

@@ -2,7 +2,6 @@ package com.yumtaufik.learnkotlinbasic.datatype.array
 
 fun main() {
 
-    //Array
     //Only for same data type
     val stringName: Array<String> = arrayOf("Taufik", "Hidayat")
     val intNumber: Array<Int> = arrayOf(1, 2, 3)

@@ -1,9 +1,9 @@
 package com.yumtaufik.learnkotlinbasic.label
 
-/*
-Adding label by type inputName and add @ mark
-Label also can integrate with break, continue, and return
-It is called break to label, continue to label, and return to label
+/**
+ * Adding label by type inputName and add @ mark
+ * Label also can integrate with break, continue, and return
+ * It is called break to label, continue to label, and return to label
 */
 fun main() {
 
@@ -30,8 +30,10 @@ fun label() {
     }
 }
 
-//Using break@inputNameOfLabel, we can stop which code will be stopped
-//Ex: We will stop for loop I after break, we can add break@loopI
+/**
+ * Using break@inputNameOfLabel, we can stop which code will be stopped
+ * Ex: We will stop for loop I after break, we can add break@loopI
+*/
 fun labelBreak() {
     println("Label break")
     loopI@ for (i in 1..10) {
@@ -44,8 +46,10 @@ fun labelBreak() {
     }
 }
 
-//Using continue@inputNameOfLabel, we can continue which code will be continued
-//Ex: We will continue at loop I, we can add continue@loopI
+/**
+ * Using continue@inputNameOfLabel, we can continue which code will be continued
+ * Ex: We will continue at loop I, we can add continue@loopI
+ */
 fun labelContinue() {
     println("Label continue")
     loopI@ for (i in 1..10) {

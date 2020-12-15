@@ -12,14 +12,18 @@ fun main() {
 
 fun satu() {
 
-    //It will gives an error because contohHelloWorld function is private function
-    //It can be accessed only by main function
+    /**
+     * It will gives an error because contohHelloWorld function is private function
+     * It can be accessed only by main function
+     */
 //    contohHelloWorld()
 }
 
 fun dua() {
 
-    //It will gives an error because contohHelloWorld function is private function
-    //It can be accessed only by main function
+    /**
+     * It will gives an error because contohHelloWorld function is private function
+     * It can be accessed only by main function
+     */
 //    contohHelloWorld()
 }
