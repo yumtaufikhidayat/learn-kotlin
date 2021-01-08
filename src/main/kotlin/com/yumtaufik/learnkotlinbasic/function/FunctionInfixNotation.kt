@@ -16,9 +16,9 @@ fun main() {
  * If we want to access this function, it is not required to use . (dot) mark
  */
 infix fun String.to(type: String): String {
-    if (type == "UP") {
-        return this.toUpperCase()
+    return if (type == "UP") {
+        this.toUpperCase()
     } else {
-        return this.toLowerCase()
+        this.toLowerCase()
     }
 }
