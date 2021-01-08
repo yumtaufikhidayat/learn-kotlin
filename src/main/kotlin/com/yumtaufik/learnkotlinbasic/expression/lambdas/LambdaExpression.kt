@@ -2,7 +2,7 @@ package com.yumtaufik.learnkotlinbasic.expression.lambdas
 
 /**
  * With lambda, we are not required to type return as return type
- * The lambda's body is automatically convert as return
+ * The lambda's end body is automatically convert as return
  */
 fun main() {
 
