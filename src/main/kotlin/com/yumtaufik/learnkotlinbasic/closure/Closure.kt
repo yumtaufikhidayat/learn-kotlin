@@ -1,6 +1,7 @@
 package com.yumtaufik.learnkotlinbasic.closure
 
-/**The function(s)/variable(s) inside main function has access to data (any functions or variable(s))
+/**
+ * The function(s)/variable(s) inside main function has access to data (any functions or variable(s))
  * within the scope. This called as Closure
  * But please be wise to use closure, because data can changed
 */
