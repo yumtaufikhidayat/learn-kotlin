@@ -37,8 +37,8 @@ fun main() {
     println(firstAlias)
 
     //Nullable
-    var firstNames: String? = null
-    firstNames = "Taufik"
+    var firstNames: String? = "Taufik"
+    firstNames = null
 
     //For nullable
     println("Panjang char yaitu ${firstNames?.length}")

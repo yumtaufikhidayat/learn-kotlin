@@ -71,4 +71,11 @@ fun main() {
     //In Java for Strings Template
     var myName = firstName
     println(String.format(Locale.getDefault(), "%s", myName.length))
+
+    var namaPertama = "Taufik"
+    var namaKedua = "Hidayat"
+    var namaLengkap = "$namaPertama $namaKedua"
+
+    println("nama saya: $namaPertama $namaKedua")
+    println("Total karakter ${namaLengkap.length}")
 }
