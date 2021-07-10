@@ -7,11 +7,15 @@ fun main() {
     val intNumber: Array<Int> = arrayOf(1, 2, 3)
 
     //Print by index
+    println(stringName[1])
+    stringName[1] = "Dayat"
     println(stringName[0])
+    println(stringName[0] + " " + stringName[1])
     println(intNumber[2])
 
     //Change data by index
     stringName[1] = "H"
+    stringName.set(1, "H")
     intNumber[2] = 7
 
     //Print by last changed value of index
