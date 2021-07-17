@@ -9,7 +9,7 @@ fun main() {
         println("Perulangan ke: $i")
         i++
 
-        if (i > 100) {
+        if (i > 10) {
             println("Perulangan berhenti")
             break
         }

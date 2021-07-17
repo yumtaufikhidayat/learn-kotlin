@@ -6,8 +6,8 @@ fun main() {
     val arrayOfName = arrayOf("Daya", "Pangestu", "Taufik", "Hidayat", "Aulia", "Rifqi", "Nurahman")
     var totalLooping = 0
 
-    for (name in arrayOfName) {
-        println(name)
+    for (nama in arrayOfName) {
+        println(nama)
         totalLooping++
     }
     println("Total perulangan: $totalLooping")
