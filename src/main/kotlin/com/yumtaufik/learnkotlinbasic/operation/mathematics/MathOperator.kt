@@ -27,7 +27,7 @@ fun main() {
     total *= barang3
 
     val barang4 = 400
-    total /=barang4
+    total /= barang4
 
     println("Total: $total")
 

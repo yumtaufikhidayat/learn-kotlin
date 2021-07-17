@@ -12,6 +12,9 @@ fun main() {
     val passFinalExam = finalExam > 75
     val passAttendant = attendant > 80
 
+    println(passFinalExam)
+    println(passAttendant)
+
     //Using AND statement
     val passAND = passFinalExam && passAttendant
 
