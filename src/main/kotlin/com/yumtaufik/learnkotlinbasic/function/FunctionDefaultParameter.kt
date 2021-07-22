@@ -3,6 +3,7 @@ package com.yumtaufik.learnkotlinbasic.function
 fun main() {
     hello("Taufik")
     hello("Taufik", "Hidayat")
+    hello("Taufik", null)
 }
 
 //Function with nullable variable and default parameter
