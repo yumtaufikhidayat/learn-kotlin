@@ -4,8 +4,8 @@ fun main() {
 
     //Call function with random parameter
     fullName(
-        firstName = "Eko",
         lastName = "Khannedy",
+        firstName = "Eko",
         middleName = "Kurniawan"
     )
 }
