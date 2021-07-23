@@ -6,14 +6,21 @@ fun main() {
     fullName(
         lastName = "Khannedy",
         firstName = "Eko",
-        middleName = "Kurniawan"
+        middleName = null
     )
 }
 
 fun fullName(
     firstName: String,
-    middleName: String,
+    middleName: String?,
     lastName: String
 ) {
-    println("Hello, $firstName $middleName $lastName")
+    when (middleName) {
+        null -> {
+            println("Hello, $firstName $lastName")
+        }
+        else -> {
+            println("Hello, $firstName $middleName $lastName")
+        }
+    }
 }
