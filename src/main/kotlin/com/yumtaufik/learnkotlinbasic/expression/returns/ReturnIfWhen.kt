@@ -17,7 +17,7 @@ fun main() {
     //This function using return when
     fun sayHelloWhen(name: String = ""): String {
         return when (name) {
-            ""-> "Hello bro!"
+            "" -> "Hello bro!"
             else -> "Hi, $name"
         }
     }
