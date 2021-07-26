@@ -8,8 +8,9 @@ fun main() {
     println("Hasilnya adalah $result")
 
     //Data for hitungTotalVarargs function
-    val resultVarArgs = hitungTotalVarargs("Taufik", 10, 10, 10, 10, 10, 10)
-    println("Hasil varargs-nya adalah $resultVarArgs")
+    val name = "Taufik"
+    val resultVarArgs = hitungTotalVarargs(name, 10, 10, 10, 10, 10, 10)
+    println("Hasil varargs-nya adalah $name $resultVarArgs")
 
     //Data for hitungTotalVarargs function with empty input for varargs
     val resultEmptyVarArgs = hitungTotalVarargs("Taufik")
