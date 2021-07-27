@@ -9,7 +9,7 @@ fun main() {
         }
     }
 
-//    display(100_000)
+    display(100_000)
 
     //Show factorial using tail recursive
     tailrec fun factorialTailRecursive(value: Int, total: Int = 1): Int {
