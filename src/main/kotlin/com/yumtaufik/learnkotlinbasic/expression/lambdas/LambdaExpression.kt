@@ -18,6 +18,13 @@ fun main() {
 
     println(contohLambda("Taufik", "Hidayat"))
 
+    val contohLambdaInt: (Int, Int) -> Int = { firstName: Int, lastName: Int ->
+        val result = firstName + lastName
+        result
+    }
+
+    println(contohLambdaInt(1, 2))
+
     //variable with lambda expression using it as single parameter
     val sayHelloIt: (String) -> String = {
         "Hello, $it"
@@ -31,6 +38,12 @@ fun main() {
     }
 
     println(sayHello("Hidayat"))
+
+    val helloName:(String) -> String = {
+        "Halo, $it"
+    }
+
+    println(helloName("Wafiq"))
 
     //Making lambda expression from existing function was called as method reference
     val toUpperCase: (String) -> String = ::toUpper
