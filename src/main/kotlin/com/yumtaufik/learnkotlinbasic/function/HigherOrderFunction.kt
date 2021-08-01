@@ -6,8 +6,8 @@ fun main() {
      * Make some variables and convert to lambda expression
      * The variable that converted as lambda expression will be using as parameter
     */
-    val toUpperCase = {value:String -> value.toUpperCase()}
-    val toLowerCase = {value:String -> value.toLowerCase()}
+    val toUpperCase = {value: String -> value.toUpperCase()}
+    val toLowerCase = {value: String -> value.toLowerCase()}
 
     println(hello("Taufik", toUpperCase))
     println(hello("Taufik", toLowerCase))
@@ -17,12 +17,12 @@ fun main() {
      * It makes easy to read
      * But it must be placed at the end where lambda expression placed
     */
-    val result1 = hello("Taufik") {
-            value:String -> value.toUpperCase()
+    val result1 = hello("Taufik") { value: String ->
+        value.toUpperCase()
     }
 
-    val result2 = hello("Hidayat") {
-            value:String -> value.toLowerCase()
+    val result2 = hello("Hidayat") { value: String ->
+        value.toLowerCase()
     }
 
     println(result1)
