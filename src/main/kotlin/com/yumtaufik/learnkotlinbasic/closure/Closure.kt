@@ -6,7 +6,9 @@ package com.yumtaufik.learnkotlinbasic.closure
  * But please be wise to use closure, because data can be changed
 */
 fun main() {
+
     var counter = 0
+
     val lambdaIncrement: () -> Unit = {
         println("Increment ke $counter")
         counter++
@@ -28,6 +30,7 @@ fun main() {
     lambdaIncrement()
     anonymousIncrement()
     increment()
+    lambdaIncrement()
 
     println("Data ke $counter")
 }
