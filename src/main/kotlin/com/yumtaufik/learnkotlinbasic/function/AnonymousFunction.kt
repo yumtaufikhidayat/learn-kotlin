@@ -21,4 +21,10 @@ fun main() {
     println(hello("Hidayat", fun(value: String): String {
         return value.toLowerCase()
     }))
+
+    val upperCase = hello("Taufik", fun(name: String): String {
+        return name.toUpperCase()
+    })
+
+    println(upperCase)
 }
