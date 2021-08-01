@@ -33,10 +33,20 @@ fun main() {
         it.toLowerCase()
     }
 
+    val result5 = hello("Budi", ({
+        it.toUpperCase()
+    }))
+
+    val result6 = hello("Budi", ({
+        it.toLowerCase()
+    }))
+
     println(result1)
     println(result2)
     println(result3)
     println(result4)
+    println(result5)
+    println(result6)
 }
 
 /**
