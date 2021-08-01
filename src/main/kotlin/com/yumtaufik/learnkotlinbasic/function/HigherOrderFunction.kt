@@ -25,8 +25,18 @@ fun main() {
         value.toLowerCase()
     }
 
+    val result3 = hello("Taufik Hidayat") {
+        it.toUpperCase()
+    }
+
+    val result4 = hello("Hidayat Taufik") {
+        it.toLowerCase()
+    }
+
     println(result1)
     println(result2)
+    println(result3)
+    println(result4)
 }
 
 /**
