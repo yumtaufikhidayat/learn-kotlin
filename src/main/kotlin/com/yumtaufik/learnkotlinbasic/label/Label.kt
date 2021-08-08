@@ -12,7 +12,7 @@ fun main() {
     labelContinue()
 
     //Using return@inputNameOfLabel, we can return value which code will be returned
-    test("Eko") test@ {
+    test("Taufik") test@ {
         when (it) {
             "" -> return@test
             else -> println("Eko")
